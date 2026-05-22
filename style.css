@@ -102,7 +102,7 @@ footer p{font-size:.74rem;color:rgba(255,255,255,.45)}
 /* RESPONSIVE */
 @media(max-width:1024px){
   nav{padding:0 1.5rem}
-  .nav-links,.nav-blog,.nav-shop,.nav-cta,.nav-member{display:none}
+  .nav-links,.nav-blog,.nav-shop,.nav-member{display:none}
   .burger{display:flex}
   .mobile-menu{display:flex}
   .sec,.page-hero{padding:5rem 1.5rem}
@@ -112,6 +112,11 @@ footer p{font-size:.74rem;color:rgba(255,255,255,.45)}
 }
 @media(max-width:600px){
   .grid-3,.grid-4,.grid-2{grid-template-columns:1fr}
+}
+
+/* MOBILE NAV CTA */
+@media(max-width:1024px){
+  .nav-cta{display:inline-block!important;font-size:.65rem;padding:.35rem .8rem}
 }
 
 /* ANIMATIONS */
